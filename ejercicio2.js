@@ -1,0 +1,12 @@
+let n1, n2;
+let s, r, d, m;
+n1 = prompt('Ingresa el primer numero ');
+n2 = prompt('Ingresa el segundo numero ');
+s = parseInt(n1) + parseInt(n2);
+r = n1-n2;
+d = n1/n2;
+m = n1*n2;
+console.log('La suma de los dos numero es ' + s);
+console.log('La resta de los dos numero es ' + r);
+console.log('La division de los dos numero es ' + d);
+console.log('La multiplicacion de los dos numero es ' + m);
